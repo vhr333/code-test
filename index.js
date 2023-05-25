@@ -40,6 +40,10 @@ console.log("Test Started")
           {
             "shipping_carrier": "USPS",
             "shipping_class": "First-Class Mail"
+          },
+          {
+            "shipping_carrier": "Fedex",
+            "shipping_class": "Fedex Express"
           }
         ]
       },
@@ -69,12 +73,11 @@ console.log("Test Started")
 // print payment_transaction_id
 
 
-// Print all line_items sku
+// Print all shipping_class
 
 
 // call external api it's a GET request, you can use any package axios/node-fetch/http-request,
-// make it as a function in utility.js, we can use same function in multiple places
-// print all sku's output
+// you need to call external api for all line item skus
 // Request URL: https://na2t44v792.execute-api.us-east-1.amazonaws.com/dev/auth/order-details/${skus}
 
 
