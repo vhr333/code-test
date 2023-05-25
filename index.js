@@ -47,17 +47,17 @@ console.log("Test Started")
         {
           "item_type": "SKU",
           "quantity": 1,
-          "sku": "GSB8762767636",
+          "sku": "GSB123",
         },
         {
           "item_type": "SKU",
           "quantity": 1,
-          "sku": "GSB949807795",
+          "sku": "GSB234",
         },
         {
           "item_type": "SKU",
           "quantity": 1,
-          "sku": "GSB367842391",
+          "sku": "GSB345",
         }
       ]
     }
@@ -66,15 +66,16 @@ console.log("Test Started")
 // Print order_id
 
 
-// payment_transaction_id
+// print payment_transaction_id
 
 
-// Print all line_items Sku
+// Print all line_items sku
 
 
 // call external api it's a GET request, you can use any package axios/node-fetch/http-request,
 // make it as a function in utility.js, we can use same function in multiple places
-// Request URL: https://na2t44v792.execute-api.us-east-1.amazonaws.com/dev/auth/order-details/${order_id}
+// print all sku's output
+// Request URL: https://na2t44v792.execute-api.us-east-1.amazonaws.com/dev/auth/order-details/${skus}
 
 
 // print external api output
